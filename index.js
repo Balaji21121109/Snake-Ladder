@@ -84,3 +84,5 @@ var move2 = function() {
         document.getElementById("dice").disabled = false;
     }
 }
+
+{ /* <p></p> */ }

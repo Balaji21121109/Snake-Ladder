@@ -14,3 +14,6 @@ function signUp() {
 
     window.location = "login.html"
 }
+
+
+{ /* <p></p> */ }
