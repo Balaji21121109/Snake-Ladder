@@ -13,13 +13,13 @@
 width: 100%;
 height: 150px;
 display: flex;
-border: 1px solid red;
+
     }
     .imgs{
         height: 100%;
         width: 300px;
         border-radius: 10px;
-        border: 1px solid red;
+       
     }
     #h11{
         margin-left: 50px;
@@ -35,7 +35,6 @@ border: 1px solid red;
         
         height: 300px;
         margin-top: 30px;
-        border: 1px solid red;
     }
     #snake_img>img{
     height: 100%;
@@ -79,13 +78,12 @@ border: 1px solid red;
         cursor: pointer;
     }
     #left_animation{
-        border: 1px solid red;
         height: 400px;
         width: 200px;
        
     }
     #sliding{
-        border: 1px solid red;
+
         width: 250px;
         height: 500px;
         margin-left: 70px;
@@ -96,7 +94,6 @@ border: 1px solid red;
         animation: slideMe .7s ease-in;
     }
     #sliding2{
-        border: 1px solid red;
         width: 250px;
         height: 500px;
         margin-left: 1200px;
@@ -104,11 +101,11 @@ border: 1px solid red;
         text-align: center;
     }
     #sliding3{
-        border: 1px solid red;
-        width: 80%;
+        width: 800px;
         height: 150px;
         margin: auto;
-        transform: translateY(-990px);
+        margin-top: 200px;
+        margin-left: -900px;
     }
     .ii{
         margin-left: 80px;
@@ -117,23 +114,26 @@ border: 1px solid red;
     }
     .iii{
         margin-top: 20px;
+      
     }
-    @keyframes sliding {
-  0%{
-      transform: skewX(53deg) translateX(-200px);
-
-  }
-  100%{
-      transform: skew(0deg);
-  }
-}
+   #big{
+       height: 100px;
+   }
    
-    
+   #bigg{
+       height: 100px;
+       margin-left: 50px;
+   }
+   
+
+
     
 </style>
 
 </head>
 <body>
+
+   
 
     <!---navigation bar stared-->
     <div id="nav">
@@ -163,16 +163,38 @@ border: 1px solid red;
 </div>
 <!----register and login ended-->
 <div id="sliding">
-    <img class="ii" src="https://tse3.mm.bing.net/th?id=OIP.tzxWMxrR_XD_fvCOK4gkWQHaNh&pid=Api&P=0&w=87&h=158"/>
-    <img class="ii"src="https://tse3.mm.bing.net/th?id=OIP.PCL9WpKHymkGzyH10L_6yAHaNh&pid=Api&P=0&w=85&h=156"/>
-<img class="ii" src="http://www.clker.com/cliparts/a/e/3/d/13197441501747420863Garden%20Snake.svg.hi.png"/>
-    <img class="ii"src="https://tse3.mm.bing.net/th?id=OIP.PCL9WpKHymkGzyH10L_6yAHaNh&pid=Api&P=0&w=85&h=156"/>
+    <div id="marquee">
+        <marquee direction="up">
+    <img class="ii"id="big"  src="https://tse3.mm.bing.net/th?id=OIP.tzxWMxrR_XD_fvCOK4gkWQHaNh&pid=Api&P=0&w=87&h=158"/>
+            
+    <img class="ii"id="big" src="https://tse3.mm.bing.net/th?id=OIP.PCL9WpKHymkGzyH10L_6yAHaNh&pid=Api&P=0&w=85&h=156"/>
+    <img class="ii"id="big"  src="https://tse3.mm.bing.net/th?id=OIP.tzxWMxrR_XD_fvCOK4gkWQHaNh&pid=Api&P=0&w=87&h=158"/>
+            
+    <img class="ii"id="big" src="https://tse3.mm.bing.net/th?id=OIP.PCL9WpKHymkGzyH10L_6yAHaNh&pid=Api&P=0&w=85&h=156"/>
+    
+    
+        </marquee>
+       
 
+    </div>
 </div>
 <div id="sliding2">
+    <div id="marquee">
+        <marquee direction="down">
     <img  class="iii" src="https://tse3.mm.bing.net/th?id=OIP.Y6u_vqvchXkHL9_taZGF_wHaHa&pid=Api&P=0&w=154&h=154"/>
     <img  class="iii"src="https://tse4.mm.bing.net/th?id=OIP.8JRWYzaRLRHjc3tGd-owqAHaHa&pid=Api&P=0&w=172&h=172"/>
+    
+    
+</marquee>
 </div>
-<div id="sliding3"></div>
+<div id="sliding3">
+    <marquee direction="left">
+        <img  class="iii" id="bigg"  src="https://th.bing.com/th/id/OIP.64e7GQ8nH75q0rnwHlSqcAHaFc?pid=ImgDet&w=1300&h=957&rs=1"/>
+        <img  class="iii" id="bigg"src="https://th.bing.com/th/id/OIP.zQHIvlJzCp_pB2owqm9XxQHaFc?pid=ImgDet&w=1300&h=957&rs=1"/>
+        <img  class="iii" id="bigg"src="https://th.bing.com/th/id/OIP.64e7GQ8nH75q0rnwHlSqcAHaFc?pid=ImgDet&w=1300&h=957&rs=1"/>
+        <img  class="iii" id="bigg"src="https://th.bing.com/th/id/OIP.zQHIvlJzCp_pB2owqm9XxQHaFc?pid=ImgDet&w=1300&h=957&rs=1"/>
+    </marquee>
+
+</div>
 </body>
 </html>
