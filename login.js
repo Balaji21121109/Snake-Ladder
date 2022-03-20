@@ -12,7 +12,7 @@ function logIn() {
     }
     if (flag == 1) {
         alert("Login Successful");
-        window.location = "index.html";
+        window.location = "index1.html";
     } else {
         alert("Wrong Credentials");
     }
