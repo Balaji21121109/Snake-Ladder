@@ -146,6 +146,7 @@ h1 {
     /* border: 1px solid red; */
     width: 30%;
     margin-left: 60%;
+    /* margin-top: 40px;     */
 }
 
 #marquee1 {
@@ -177,23 +178,20 @@ h1 {
     font-size: 20px;
 }
 
-.player {
-    border: 1px solid red;
-    width: 7%;
-    margin-left: 38%;
-    /* margin-top: 10px; */
-    border-radius: 50%;
-    text-align: center;
-    background-color: aqua;
-    color: rgba(8, 69, 184, 0.973);
+.btnp {
+    width: 150px;
+    margin-left: 50px;
+    height: 45px;
+    border-radius: 25%;
 }
 
-.player:hover {
-    cursor: pointer;
-    background-color: blue;
+.btnp:hover {
     color: white;
+    background-color: blue;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-#player {
-    transform: translateY(190px);
+.btndiv {
+    transform: translateY(-270px);
 }
