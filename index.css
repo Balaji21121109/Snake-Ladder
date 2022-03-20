@@ -146,11 +146,6 @@ h1 {
     /* border: 1px solid red; */
     width: 30%;
     margin-left: 60%;
-<<<<<<< HEAD
-    /* margin-top: 40px;     */
-=======
-    /* margin-top: -40px; */
->>>>>>> c0531905f006f09c5643defa21b9b6cd0d6d0f86
 }
 
 #marquee1 {
@@ -180,8 +175,6 @@ h1 {
     transform: translateY(-1450px);
     width: 20%;
     font-size: 20px;
-<<<<<<< HEAD
-=======
 }
 
 .player {
@@ -203,5 +196,4 @@ h1 {
 
 #player {
     transform: translateY(190px);
->>>>>>> c0531905f006f09c5643defa21b9b6cd0d6d0f86
 }
