@@ -1,13 +1,13 @@
-var number = 1;
-var a;
-var j;
+var num = 1;
+var aaa;
+var jjj;
 var n = 1;
 var m = 0;
-var dices = ["", "⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
+var dice = ["", "⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
 var id = 100;
 
-for (a = 0; a < 5; a++) {
-    for (b = 0; b <= 9; b++) {
+for (aaa = 0; aaa < 5; aaa++) {
+    for (bb = 0; bb <= 9; bb++) {
         document.getElementById("board").innerHTML += "<div class='boardbox left' id='box" + id + "' ></div>"
         id--;
     }
@@ -16,22 +16,22 @@ for (a = 0; a < 5; a++) {
         id--;
     }
 }
-document.getElementById("box" + number).innerHTML = "<img id='counter' class='img' src='http://www.freepngimg.com/thumb/chess/9-chess-pawn-png-image-thumb.png'></img>"
+document.getElementById("box" + num).innerHTML = "<img id='counter' class='img' src='https://static.thenounproject.com/png/108498-200.png'></img>"
 var play = function() {
-    number = 1;
+    num = 1;
     document.getElementById("board").style.visibility = "visible";
     document.getElementById("dice").style.visibility = "visible";
     document.getElementById("Play").style.visibility = "hidden";
-    document.getElementById("dice").innerHTML = dices[1];
+    document.getElementById("dice").innerHTML = dice[1];
 }
 var random = function() {
 
     document.getElementById("dice").disabled = false;
-    var dices = ["", "⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
-    a = Math.ceil(Math.random() * 6);
-    document.getElementById("dice").innerHTML = dices[a];
-    if (n + a > 100) {
-        a = 0;
+    var dice = ["", "⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
+    aaa = Math.ceil(Math.random() * 6);
+    document.getElementById("dice").innerHTML = dice[aaa];
+    if (n + aaa > 100) {
+        aaa = 0;
     }
     d = 0;
     move()
@@ -43,8 +43,8 @@ var move = function() {
 var move2 = function() {
     n++;
     m++;
-    if (m < (a) || m == (a)) {
-        if (d == (a - 1)) {
+    if (m < (aaa) || m == (aaa)) {
+        if (d == (aaa - 1)) {
             if (n == 4) {
                 n = 39;
             } else if (n == 36) {
@@ -84,5 +84,3 @@ var move2 = function() {
         document.getElementById("dice").disabled = false;
     }
 }
-
-{ /* <p></p> */ }
